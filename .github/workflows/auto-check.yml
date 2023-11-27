@@ -1,5 +1,6 @@
 name: Auto Assign
-on:
+on: 
+  pull_requests:
 
 jobs:
   build:
