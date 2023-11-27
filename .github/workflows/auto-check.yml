@@ -1,22 +1,29 @@
-name: Auto Assign
-on: 
+name: Quality gate
+
+on:
   pull_request:
-    types: [opened, synchronize, reopened, ready_for_review]
+  pull_request_target:
+  push:
+    branches: [ main ]
 
 jobs:
   build:
+    name: Quality gate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '8.0.x'
       - name: Install dependencies
+        working-directory: ./src
         run: dotnet restore
       - name: Build
+        working-directory: ./src
         run: dotnet build
       - name: Test with the dotnet CLI
+        working-directory: ./src
         run: dotnet test
 
 
