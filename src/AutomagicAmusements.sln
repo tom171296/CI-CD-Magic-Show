@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomagicAmusements", "AutomagicAmusements\AutomagicAmusements.csproj", "{542685B6-BC70-4610-96F4-66E81C0CC55A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomagicAmusements.Tests", "AutomagicAmusements.Tests\AutomagicAmusements.Tests.csproj", "{F2BE0BA3-5EE2-4C8A-9C87-90CBF7AB8668}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,15 +10,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{542685B6-BC70-4610-96F4-66E81C0CC55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{542685B6-BC70-4610-96F4-66E81C0CC55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{542685B6-BC70-4610-96F4-66E81C0CC55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{542685B6-BC70-4610-96F4-66E81C0CC55A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2BE0BA3-5EE2-4C8A-9C87-90CBF7AB8668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2BE0BA3-5EE2-4C8A-9C87-90CBF7AB8668}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2BE0BA3-5EE2-4C8A-9C87-90CBF7AB8668}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2BE0BA3-5EE2-4C8A-9C87-90CBF7AB8668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

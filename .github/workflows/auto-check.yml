@@ -1,4 +1,4 @@
-name: Quality gate
+name: CI
 
 on:
   pull_request:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Quality gate
+    name: CI
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
