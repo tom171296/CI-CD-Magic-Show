@@ -9,3 +9,5 @@ updates:
     directory: "./src" 
     schedule:
       interval: "daily"
+    group:
+      name: "all"
