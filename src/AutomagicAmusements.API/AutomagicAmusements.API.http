@@ -1,4 +1,4 @@
-@AutomagicAmusements.API_HostAddress = http://localhost:5270
+@AutomagicAmusements.API_HostAddress = http://localhost:5183
 
 GET {{AutomagicAmusements.API_HostAddress}}/weatherforecast/
 Accept: application/json
